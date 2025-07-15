@@ -212,6 +212,23 @@ Author: Karen/あけみ, Dissident <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
 Name: AppSync for iOS 4.0
 
+Package: org.tihmstar.kDFUApp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Filename: debs/org.tihmstar.kDFUApp.deb
+Size: 80264
+MD5sum: 11acba9233d569267c58a2ff1e85a600
+SHA1: 5ecdfd856331a124649cf2af6a83b39d48d6ef62
+SHA256: 1f44ba92f5e194e56234eff7f5c09bf571d30b3001c6d6d52488b55fa070cb7c
+Section: System
+Priority: optional
+Description: easy way to get into kDFU mode
+Author: tihmstar
+Dev: tihmstar
+Name: kDFUApp
+
 Package: uk.invoxiplaygames.checkmatestore
 Version: 1.2
 Architecture: iphoneos-arm
