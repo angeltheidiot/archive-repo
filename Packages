@@ -19,21 +19,6 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
-Package: io.chillboi20.coolbooterhelper
-Version: 1.0.0b4
-Architecture: iphoneos-arm
-Maintainer: chillboi20
-Installed-Size: 104
-Filename: debs/io.chillboi20.coolbooterhelper_1.0.0b4_iphoneos-arm.deb
-Size: 3258
-MD5sum: da9f132ad2434ce3adb39f1b8ec1b356
-SHA1: c5462558361e87332cd9b039a2d30c3f8a15f85f
-SHA256: 9c215046436b2117e281e80b9ee78d6a27710d6da5a3764defa40646d5bdd456
-Section: Tweaks
-Description: A script for using CoolBooter CLI and managing partitions
-Author: chillboi20 <chillboialt@gmail.com>
-Name: CoolBooter Helper
-
 Package: com.boo.airport13
 Version: 1.0
 Architecture: iphoneos-arm
@@ -181,6 +166,25 @@ Section: Utilities
 Description: Downgrade iOS apps easily on-device
 Author: Mineek
 Name: MuffinStore
+
+Package: io.chillboi20.coolbooterhelper
+Version: 1.0.0b4
+Architecture: iphoneos-arm
+Maintainer: chillboi20 <chillboialt@gmail.com>
+Installed-Size: 104
+Depends: coreutils
+Recommends: dualbootstuff, coolbootercli
+Filename: debs/io.chillboi20.coolbooterhelper_1.0.0b4_iphoneos-arm.deb
+Size: 3412
+MD5sum: a6c3d314e80bdba940b772fcca140604
+SHA1: eb5b65a2fa612727a5ca6c103f0b968b92533bcb
+SHA256: 42f0670c368162b9f7cacbbb46265aa924e1f71c0bbde317e605230af571b82c
+Section: Tweaks
+Homepage: http://chillboi20.github.io
+Description: A script for using CoolBooter CLI and managing partitions
+Author: chillboi20 <chillboialt@gmail.com>
+Depiction: http://chillboi20.github.io
+Name: CoolBooter Helper BETA
 
 Package: ios-6-pods-hack
 Version: 2
